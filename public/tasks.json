@@ -1,0 +1,65 @@
+[
+  {
+    "id": "TSK-0001",
+    "title": "Create React App",
+    "name": "Nikita",
+    "surname": "Schastnyy",
+    "status": "DONE",
+    "priority": "MUST",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0002",
+    "title": "Install libraries",
+    "name": "Nikita",
+    "surname": "Schastnyy",
+    "status": "DONE",
+    "priority": "MUST",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0003",
+    "title": "Complete markup",
+    "name": "Nikita",
+    "surname": "Schastnyy",
+    "status": "TESTING",
+    "priority": "COULD",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0004",
+    "title": "Create task service layer",
+    "name": "Nikita",
+    "surname": "Schastnyy",
+    "status": "TESTING",
+    "priority": "MUST",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0005",
+    "title": "Check test task",
+    "name": "Someone",
+    "surname": "from RVision",
+    "status": "IN_PROGRESS",
+    "priority": "MUST",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0006",
+    "title": "Сongratulate the Developer on his success",
+    "name": "Someone",
+    "surname": "from RVision",
+    "status": "PLAN",
+    "priority": "SHOULD",
+    "date": "2017-04-20T04:00:00.000Z"
+  },
+  {
+    "id": "TSK-0007",
+    "title": "Make an offer to the Developer",
+    "name": "Someone",
+    "surname": "from RVision",
+    "status": "PLAN",
+    "priority": "MUST",
+    "date": "2017-04-20T04:00:00.000Z"
+  }
+]
