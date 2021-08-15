@@ -5,6 +5,7 @@
   border-radius: 3px;
   min-width: 200px;
   box-sizing: border-box;
+  position: relative;
 
   & .title {
     text-transform: capitalize;
@@ -12,5 +13,13 @@
 
   & .task-plate {
     margin-top: 0.5rem;
+  }
+
+  & .body {
+    height: 90%;
+  }
+
+  & .placeholder {
+    display: hidden;
   }
 }

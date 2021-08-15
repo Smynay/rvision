@@ -2,18 +2,18 @@ import DefaultLayout, {
   DefaultLayoutNestedPropTypes,
 } from 'components/layouts/default-layout/DefaultLayout';
 import TaskBoard from 'components/organisms/task-board/TaskBoard';
-import { ITask } from 'models/task';
+import { ITaskStore } from 'storages/task.storage';
 
 import './MainTemplate.scss';
 
 type PropTypes = DefaultLayoutNestedPropTypes & {
-  taskArray: ITask[];
+  taskStore: ITaskStore;
 };
 
-const MainTemplate = ({ title, taskArray }: PropTypes) => {
+const MainTemplate = ({ title, taskStore }: PropTypes) => {
   return (
     <DefaultLayout title={title}>
-      <TaskBoard taskArray={taskArray} />
+      <TaskBoard store={taskStore} />
     </DefaultLayout>
   );
 };
