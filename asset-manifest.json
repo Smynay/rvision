@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rvision/static/css/main.4e649d47.chunk.css",
-    "main.js": "/rvision/static/js/main.08bd9655.chunk.js",
-    "main.js.map": "/rvision/static/js/main.08bd9655.chunk.js.map",
+    "main.js": "/rvision/static/js/main.d6d0d437.chunk.js",
+    "main.js.map": "/rvision/static/js/main.d6d0d437.chunk.js.map",
     "runtime-main.js": "/rvision/static/js/runtime-main.abb22adf.js",
     "runtime-main.js.map": "/rvision/static/js/runtime-main.abb22adf.js.map",
     "static/js/2.efe3e652.chunk.js": "/rvision/static/js/2.efe3e652.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.abb22adf.js",
     "static/js/2.efe3e652.chunk.js",
     "static/css/main.4e649d47.chunk.css",
-    "static/js/main.08bd9655.chunk.js"
+    "static/js/main.d6d0d437.chunk.js"
   ]
 }
