@@ -21,6 +21,6 @@ Create a TaskBoard
 
 4. Each column should be sortend by Creator name and Task priority
 
-5. User can change task statys by Drag&Drop
+5. User can change task status by Drag&Drop
 
 6. Semantic markup
