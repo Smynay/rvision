@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rvision/static/css/main.4e649d47.chunk.css",
+    "main.js": "/rvision/static/js/main.45fe5b88.chunk.js",
+    "main.js.map": "/rvision/static/js/main.45fe5b88.chunk.js.map",
+    "runtime-main.js": "/rvision/static/js/runtime-main.abb22adf.js",
+    "runtime-main.js.map": "/rvision/static/js/runtime-main.abb22adf.js.map",
+    "static/js/2.efe3e652.chunk.js": "/rvision/static/js/2.efe3e652.chunk.js",
+    "static/js/2.efe3e652.chunk.js.map": "/rvision/static/js/2.efe3e652.chunk.js.map",
+    "index.html": "/rvision/index.html",
+    "static/css/main.4e649d47.chunk.css.map": "/rvision/static/css/main.4e649d47.chunk.css.map",
+    "static/js/2.efe3e652.chunk.js.LICENSE.txt": "/rvision/static/js/2.efe3e652.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abb22adf.js",
+    "static/js/2.efe3e652.chunk.js",
+    "static/css/main.4e649d47.chunk.css",
+    "static/js/main.45fe5b88.chunk.js"
+  ]
+}
