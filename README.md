@@ -4,25 +4,23 @@ Its my test project for rvision.
 
 Technical requirements:
 
-Создать TaskBoard
-Требования:
+Create a TaskBoard
 
-1. Есть массив данных, где каждый элемент массива это:
-- Номер задачи (TSK-XXXX)
-- Название задачи
-- Имя,
-- Фамилия,
-- Статус, один из (PLAN, IN PROGRESS, TESTING, DONE)
-- Важность задачи (MUST, SHOULD, COULD)
-- Дата
+1. Got arr, where each element has:
+- Task number (TSK-XXXX)
+- Task name
+- Creator name,
+- Creator surname,
+- Task status, one of (PLAN, IN PROGRESS, TESTING, DONE)
+- Task priority? one of (MUST, SHOULD, COULD)
+- Task date
 
-2. Данные отобразить в виде плиточек, где каждая колонка это один из статусов (на плитке показать номер задачи и название)
+2. Board should have a column for each status (на плитке показать номер задачи и название)
 
-3. Отсортировать плитки по Имени и Важности, то есть сначала должны идти все
-задачи Васи Пупкина, где первыми будут MUST, последними COULD, затем
-задачи для Пети Камушкина и т.д..
+3. Each task card should view Task name, Task number, Creator info and Task priority
 
-4. Должна быть возможность перемещать плитки мышкой (Drag&Drop) из одной колонки в другу, меняя статус
-соответственно.
+4. Each column should be sortend by Creator name and Task priority
 
-5.  Нужна семантическая разметка.
+5. User can change task statys by Drag&Drop
+
+6. Semantic markup
