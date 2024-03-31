@@ -5,14 +5,14 @@ import {
   Switch,
 } from 'react-router-dom';
 
-import { ERROR_PATH, MAIN_PATH } from 'utils/constants';
+import {BASENAME, ERROR_PATH, MAIN_PATH} from 'utils/constants';
 
 import MainRouter from './main.router';
 import ErrorRouter from './error.router';
 
 const RootRouter = () => {
   return (
-    <Router>
+    <Router basename={BASENAME}>
       <Switch>
         <Route path={`${ERROR_PATH}`} component={ErrorRouter} />
         <Route path={`${MAIN_PATH}`} component={MainRouter} />
