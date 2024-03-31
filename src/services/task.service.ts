@@ -1,4 +1,5 @@
 import { ITask } from 'models/task';
+import {URL} from "../utils/constants";
 
 export interface ITaskService {
   fetchTasks(): Promise<ITask[]>;
@@ -6,7 +7,7 @@ export interface ITaskService {
 
 class TaskService implements ITaskService {
   async fetchTasks() {
-    const res = await fetch(`/tasks.json`);
+    const res = await fetch(`${URL}/tasks.json`);
     const result: ITask[] = await res.json();
 
     return result;
